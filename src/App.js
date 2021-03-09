@@ -8,12 +8,13 @@ import Myseventhcomponent from './components/myseventhcomponent'
 import Myeigthcomponent from './components/myeigthcomponent'
 import Myninthcomponent from './components/myninthcomponent'
 import Mytenthcomponent from  './components/mytenthcomponent'
+import Mastercomponent from './components/mastercomponent'
 
 function App() {
   return (
     <div className="App">
       
-          <Myfirstcomponent/>
+          {/* <Myfirstcomponent/>
           <Mysecondcomponent/>
           <Mythirdcomponent/>
           <Myfourthcomponent/>
@@ -22,8 +23,11 @@ function App() {
           <Myseventhcomponent/>
           <Myeigthcomponent/>
           <Myninthcomponent/>
-          <Mytenthcomponent/>
-       
+          <Mytenthcomponent/> */}
+          <Mastercomponent name= "Afia" height= "45"/>
+          <Mastercomponent name= "Pokuaa" height= "50"/>
+          <Mastercomponent name= "Berfi" height= "30"/>
+          <Mastercomponent name= "Nana" height= "34"/>
       
     </div>
   );
