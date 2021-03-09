@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Myfirstcomponent from './components/myfirstcomponent'
+import Mysecondcomponent from './components/mysecondcomponent'
+import Mythirdcomponent from './components/mythirdcomponent'
+import Myfourthcomponent from './components/myfourthcomponent'
+import Myfifthcomponent from './components/myfifthcomponent'
+import Mysixthcomponent from './components/mysixthcomponent'
+import Myseventhcomponent from './components/myseventhcomponent'
+import Myeigthcomponent from './components/myeigthcomponent'
+import Myninthcomponent from './components/myninthcomponent'
+import Mytenthcomponent from  './components/mytenthcomponent'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+          <Myfirstcomponent/>
+          <Mysecondcomponent/>
+          <Mythirdcomponent/>
+          <Myfourthcomponent/>
+          <Myfifthcomponent/>
+          <Mysixthcomponent/>
+          <Myseventhcomponent/>
+          <Myeigthcomponent/>
+          <Myninthcomponent/>
+          <Mytenthcomponent/>
+       
+      
     </div>
   );
 }
