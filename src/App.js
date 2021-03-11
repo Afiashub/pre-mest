@@ -9,7 +9,9 @@ import Myeigthcomponent from './components/myeigthcomponent'
 import Myninthcomponent from './components/myninthcomponent'
 import Mytenthcomponent from  './components/mytenthcomponent'
 import Mastercomponent from './components/mastercomponent'
-
+import ParentComponent from './components/parentcomponent'
+import DashboardComponent from './propdrilling/DashboardComponent'
+import Counter from './state/counter'
 function App() {
   return (
     <div className="App">
@@ -24,11 +26,13 @@ function App() {
           <Myeigthcomponent/>
           <Myninthcomponent/>
           <Mytenthcomponent/> */}
-          <Mastercomponent name= "Afia" height= "45"/>
+          {/* <Mastercomponent name= "Afia" height= "45"/>
           <Mastercomponent name= "Pokuaa" height= "50"/>
           <Mastercomponent name= "Berfi" height= "30"/>
           <Mastercomponent name= "Nana" height= "34"/>
-      
+          <ParentComponent name='Afia' gender='Female' age='23' email='afipok19@yahoo.com'/> */}
+          {/* <DashboardComponent name= 'John' lastname= 'Smith' email= 'johnsmith@yahoo.com' dob= '10th March 2020' mobile= '0244564839'/> */}
+          <Counter/>
     </div>
   );
 }
